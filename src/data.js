@@ -1,35 +1,36 @@
-import React, {useState} from "react";
 import { FaInstagram, FaFacebook, FaLinkedin, FaTwitter, FaHome, FaUserFriends, FaFolderOpen, FaCalendarAlt, FaFolder, FaChevronLeft, FaChevronRight, FaQuoteRight}from "react-icons/fa";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faFolderOpen, faUserCircle, faPeopleGroup, faContactCard, faMoneyBill} from '@fortawesome/free-solid-svg-icons'
 
 
 
 export const links = [
   {
     id: 1,
-    icon: <FaHome/>,
-    text: "random",
+    icon: <FontAwesomeIcon icon={faUserCircle}/>,
+    text: "profile",
   },
   {
     id: 2,
-    icon: <FaUserFriends/>,
-    text: "about",
+    icon: <FontAwesomeIcon icon={faPeopleGroup}/>,
+    text: "team",
   },
   {
     id: 3,
-    icon: <FaFolderOpen/>,
+    icon: <FontAwesomeIcon icon={faFolderOpen}/>,
     text: "projects",
   },
   {
     id: 4,
-    icon: <FaFolderOpen/>,
-    text: "contact",
+    icon: <FontAwesomeIcon icon={faMoneyBill}/>,
+    text: "pricing",
   },
   {
     id: 5,
-    icon: '',
-    text: "profile",
+    icon: <FontAwesomeIcon icon={faContactCard}/>,
+    text: "contact",
   },
+
 ];
 
 
@@ -65,8 +66,6 @@ export const cards = [
     header: "JavaScript",
     cardList: ['Prototype',
            '(ES6) Class',
-           'IIFE',
-           'Scope',
            'Functions Definition',
            'Module Pattern',
            'Template Literal',
@@ -74,10 +73,7 @@ export const cards = [
            'Spread Operator',
            'Apply/Call/Bind Methods',
            'Array methods',
-           'Asynchronous JS',
-           'Callback Function',
            'Promises',
-           'Async & Await'
     ]
   },
   {
@@ -92,13 +88,8 @@ export const cards = [
            'Context',
            'Props',
            'State',
-           'setState',
            'Components',
            'Hooks',
-           'Custom Hooks',
-           'NextJS',
-           'React Native',
-           'Promises',
            'Async & Await'
     ]
   },
@@ -108,19 +99,14 @@ export const cards = [
     alt: 'NodeJS_logo',
     header: "NodeJS",
     cardList: ['Asynchronous I/O ',
-               'Prototypes',
                'Modules',
                'Callbacks',
                'Promises',
-               'Observables',
                'Event Queue',
                'Event Loop',
                'Thread Pool',
-               'No Buffering',
                'NPM',
                'Cluster',
-               'DNS',
-               'Add-ons',
                'Console'
 
     ]
@@ -132,20 +118,15 @@ export const cards = [
     header: "HTML5",
     paragraph: 'FWFWFFW',
     cardList: ['Figure Element',
-        'Editable Content',
         'Email Inputs',
-        'Placeholders',
         'Local Storage',
         'Semantic Header & Footer',
         'Form Features',
         'Required Attribute',
-        'Autofocus Attribute',
-        'Audio Support',
-        'Video Support',
+        'Audio/Video Support',
         'Preload Videos',
         'Display Controls',
         'Regular Expressions',
-        'Mark Element'
     ]
   },
   {
@@ -161,14 +142,9 @@ export const cards = [
         'Shorthand Properties',
         'Display Layouts',
         'Positioning Layouts',
-        'Flex Layouts',
         'Responsive Media Queries',
         'Inheritance',
         'Bootstrap Library',
-        'Atomic CSS',
-        'BEM',
-        'SMA CSS',
-        'Systematic CSS'
     ]
   },
 ];

@@ -1,11 +1,22 @@
 import React, {useState} from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
 import { cards } from './data'
+import { FaMagnet } from 'react-icons/fa'
+import '../src/css/profile.css'
+
 
 const Profile = () => {
+  const [subscribe, setSubscribe] = useState('')
 
   return (
     <>
+    <div className='readMore-container'>
+        <button className='readMore-btn'>info</button>
+        <div className='readMore-paragraph'>An overview of the React documentation and related resources:</div>
+        <FaMagnet className='readMore-magnet'/>    
+        <a href='https://reactjs.org/tutorial/tutorial.html' className='readMore-link'>React is a JavaScript library for building user interfaces</a>
+        <FaMagnet className='readMore-magnet'/>        
+    </div>
     <div className='profile-container'>
         <img src='https://i.imgur.com/snovgnr.jpg' alt='my photo' className='profile-img'/>
         <h3 className='profile-header'>rene levec</h3>
@@ -41,8 +52,13 @@ const Profile = () => {
         <img src='https://i.imgur.com/Z6rWZHO.jpg' alt='img-3' className='footer-img'/>
     </footer>
     <div className='footer-header'>
-      <p>enter your email:</p>
-      <button>subscribe now</button>
+      <input 
+        className='subscribe-input'
+        type='text'
+        value={subscribe}
+        onChange={(e) => setSubscribe(e.target.value)}
+      />
+      <button type='submit' className='subscribe-btn'>Subscribe</button>
     </div>
     </>
   )

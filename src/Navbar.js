@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { FaBars, FaTwitter } from 'react-icons/fa'
 import { links, social } from './data'
 import Profile from './Profile'
-import ReadMore from './ReadMore'
+import '../src/css/navbar.css'
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
@@ -38,7 +38,7 @@ const Navbar = () => {
                             const {id, text, icon} = link
                             return (
                                <li key={id}>
-                                <button>{icon}{text}</button>
+                                <button className='links-btn'>{icon}{text}</button>
                                </li> 
                             )
                         })
@@ -59,7 +59,6 @@ const Navbar = () => {
             </ul>
         </div>
     </nav>
-    <ReadMore/>
     {showProfile && <Profile />}
   </>
   )
