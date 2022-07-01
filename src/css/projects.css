@@ -1,40 +1,52 @@
-.section {
-    width: 90vw;
-    margin: 0 auto;
-    max-width: var(1170px);
+.project-card-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    gap: 10px;
+    z-index: 1
+}
+.project-profile-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    background-color: #FCF55F;
+    color: #002D62;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    line-height: 0.2px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 5px solid #002D62;
+    column-gap: 20px;
 }
 
-@media screen and (min-width: 992px) {
-    .section {
-        width: 95vw;
-    }
+
+
+
+.project-header {
+    text-align: center;
+    position: relative;
+    z-index: 4;
 }
 
-/*Menu/*/
-.project {
-    padding: 5rem 0;
-}
 
-.title {
+
+.project-title {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.underline {
-    width: 5rem;
-    height: 0.25rem;
-    background: gold;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.btn-container {
+.project-btn-container {
     margin-bottom: 4rem;
     display: flex;
     justify-content: center;
 }
 
-.filter-btn {
+.project-filter-btn {
     background: transparent;
     border-color: transparent;
     font-size: 1rem;
@@ -48,73 +60,99 @@
     border-radius: 0.25rem;
 }
 
-.filter-btn:hover {
+.project-filter-btn:hover {
     background: gold;
-    color: white);
+    color: white;
 }
 
-.section-center {
-    width: 90vw;
+
+
+.fix-stroke {
+    paint-order: stroke fill;
+}
+
+.text-container-header {
+    margin-bottom: -2px;
+}
+
+.text-container-header {
+    max-width: 35rem;
     margin: 0 auto;
-    max-width: 1170px;
-    display: grid;
-    gap: 3rem 2rem;
-    justify-items: center;
+    color: #FCF55F;
+    -webkit-text-stroke: 0.1rem #002D62;
 }
 
-.project-item {
-    display: grid;
-    gap: 1rem 2rem;
-    max-width: 25rem;
+.project-text {
+    font-size: 14px;
+    max-width: 35rem;
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    line-height: 2;
+    color: #FCF55F;
+    -webkit-text-stroke: 0.1rem #002D62;
+} 
+
+.project-header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(90deg,#002D62, #FCF553);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.photo {
-    object-fit: cover;
-    height: 200px;
-    width: 100%;
-    border: 0.25rem solid gold;
-    border-radius: 0.25rem;
-    display: block;
+
+
+.project-desc {
+    text-align: center;
+    font-size: 8px;
 }
 
-.item-info header {
+
+.project-btn-container {
     display: flex;
-    justify-content: space-between;
-    border-bottom: 0.5px dotted grey;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: -10px;
 }
 
-.item-info h4 {
-    margin-bottom: 0.5rem;
+
+.filter-btn {
+    background-color: transparent;
+    border: none;
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    font-weight: 600;
 }
 
-.technologies {
-    color: gold;
+.filter-btn:hover {
+    background: #FCF55F;
+    color: #FFFACD;
+    padding-left: 1.5rem;
 }
 
-.item-text {
-    margin-bottom: 0;
-    padding-top: 1rem;
+.project-img {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+    align-self: start;
+    justify-self: start;
+    box-shadow: 0 0 0 10px #002D62;
+    outline: double 5px #FCF55F;
+    margin-top: 15px;
 }
 
-@media screen and (min-width: 768px) {
-    .project-item {
-        grid-template-columns: 225px 1fr;
-        gap: 0 1.25rem;
-        max-width: 40rem;
-    }
-
-    .photo {
-        height: 175px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .section-center {
-        width: 95vw;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .photo {
-        height: 150px;
-    }
+.project-img:hover {
+    opacity: 0.7;
 }

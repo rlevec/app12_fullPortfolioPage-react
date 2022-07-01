@@ -11,6 +11,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/EHdnGwE.jpg',
     desc: `Appointment list of a person using useState() and useEffect() hooks.`,
+    link: 'https://github.com/rlevec/app1_Appointments-react',
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/LedjrDc.jpg',
     desc: `Excursion list of available tours using useState() and useEffect() hooks with added functionality and multiple component drilling. State alteration in the component.`,
+    link: 'https://github.com/rlevec/app2_Excursion-react',    
   },
   {
     id: 3,
@@ -27,6 +29,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/vh4vmaw.jpg',
     desc: `List of product reviews using useState() and useEffect() hooks with added functionality of switching between users and multiple component drilling.`,
+    link: 'https://github.com/rlevec/app3_ProductReviews-react',    
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/HdjGEb0.jpg',
     desc: `Accordion web design for questions and answers about shipping of product using useState() and useEffect() hooks. State alteration in the component.`,
+    link: 'https://github.com/rlevec/app4_ShippingAccordion-react',    
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/rRqLWAb.jpg',
     desc: `Menu list using useState() and useEffect() hooks with added functionality of conditional rendering.`,
+    link: 'https://github.com/rlevec/app5_UrbanMenu-react',    
   },
   {
     id: 6,
@@ -50,7 +55,8 @@ export const projects= [
     category: 'beginner',
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/XXZyAnj.jpg',
-    desc: 'Interactive index based GUI alteration with useState() and useEffect() hooks based on work experience info example via company filtering.'
+    desc: 'Interactive index based GUI alteration with useState() and useEffect() hooks based on work experience info example via company filtering.',
+    link: 'https://github.com/rlevec/app6_WorkExperience-react',    
   },
   {
     id: 7,
@@ -59,6 +65,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/AgS850B.jpg',
     desc: `List of job description reviews with added functionality of index based css position and a times slider between the users.`,
+    link: 'https://github.com/rlevec/app7_ReviewsSlider-react',    
   },
   {
     id: 8,
@@ -66,15 +73,17 @@ export const projects= [
     category: 'beginner',
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/Urrc1ns.jpg',
-    desc: `List of CSS HEX color shades using Stack Overflow's function implementation and importing color palete value objects from GitHub and turning it all into interactive color shade selection screen bas…`,
+    desc: `List of CSS HEX color shades using Stack Overflow's function implementation and importing color palete value objects from GitHub and turning it all into interactive color shade selection screen bas…`, 
+    link: 'https://github.com/rlevec/app8_ColorShadesGenerator-react',      
   },
   {
     id: 9,
     title: 'lorem ipsum paragraph generator',
     category: 'beginner',
     technologies: 'JS, React, CSS, HTML',
-    img: 'https://i.imgur.com/Urrc1ns.jpg',
+    img: 'https://i.imgur.com/z4VEf6y.jpg',
     desc: `List of lorem ipsum paragraphs generated via user input by altering the state of the component with external data.`,
+    link: 'https://github.com/rlevec/app9_LoremIpsumParagraphGenerator-react-external_data',     
   },
   {
     id: 10,
@@ -83,6 +92,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/26qJlom.jpg',
     desc: `Multiple input based list with interactive GUI via multiple state altering and functionalities such as edit/remove/clear with alert state on each change.`,
+    link: 'https://github.com/rlevec/app10_DailyWorkoutToDo-react',   
   },
   {
     id: 11,
@@ -91,6 +101,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/AHgwmfu.jpg',
     desc: `Altering navigation bar height based on the heigh value of the container gathered via useRef hook and altered via useEffect based on the state value.`,
+    link: 'https://github.com/rlevec/app11_navBarDesignAlter-react',  
   },
   {
     id: 12,
@@ -99,6 +110,7 @@ export const projects= [
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/CCidYIJ.jpg',
     desc: `to be continued...`,
+    link: 'https://github.com/rlevec/app12_fullPortfolioPage-part1-react-in-progress',  
   },
 ]
 

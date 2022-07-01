@@ -1,41 +1,63 @@
 import React, {useState} from 'react'
-import { projects } from './data'
-import '../src/css/projects.css'
+import {projects} from './data'
 
-const Projects = () => {
-  const [projectItems, setProjectItems] = useState(projects);
-  const [categories, setCategories] = useState([])
+const allCategories = ['all', ...new Set(projects.map((project) => project.category))] 
+console.log(allCategories)
 
-
+export const Projects = () => {
+  const [projectItems, setProjectItems] = useState(projects)
+  const [categories, setCategories] = useState(allCategories)
+  
+  const filterItems = (category) => {
+    if(category === 'all') {
+        setProjectItems(projects)
+        return
+    } 
+    const newItems = projects.filter((item) => item.category === category)
+    setProjectItems(newItems)
+  }
+  
   return (
     <>
-        <section className='project section'>
-            <div className='title'>
-                <h2>our projects</h2>
-                <div className='underline'></div>       
+        <div>
+            <div>
+                <h2 className='project-header'>our projects</h2>
             </div>
-            <div className='section-center'>
+            <div className='project-btn-container'>
                 {
-                    projectItems.map((project) => {
-                        const {id, title, desc, technologies, img} = project
+                    categories.map((category, index) => {
                         return (
-                            <article key={id} className='project-item'>
-                                <img src={img} alt={title} className='photo'/>
-                                <div className='item-info'>
-                                    <header>
-                                        <h4>{title}</h4>
-                                        <h4 className='technologies'>{technologies}</h4>
-                                    </header>
-                                    <p className='item-text'>{desc}</p>
-                                </div>
-                            </article>
-                        ) 
+                             <button type='button' key={index} className='filter-btn'
+                                onClick={() => filterItems(category)}
+                                >
+                                    {category}
+                                </button>                                
+
+                        )
                     })
                 }
             </div>
-        </section>
-    </div>
+            <div className='project-card-container'>
+                {
+                    projects.map((project) => {
+                        const {id, title, technologies, desc, img, link} = project
+                        return (
+                            <div key={id} className='project-profile-card'>
+                                <a href={link}>
+                                    <img src={img} alt={title} className='project-img'/>
+                                </a>
+                                <div className='text-container'>
+                                    <h4 className='text-container-header'><b>{title}</b></h4>
+                                    <div className='underline'></div>
+                                    <p className='project-text fix-stroke'>{technologies}</p>
+                                    <h4 className='project-desc'>{desc}</h4>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+        </div>
+    </>
   )
 }
-
-export default Projects

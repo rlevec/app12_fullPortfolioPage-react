@@ -3,8 +3,9 @@ import { FaBars, FaTwitter } from 'react-icons/fa'
 import { links, social } from './data'
 import Profile from './Profile'
 import Team from './Team'
+import { Projects } from './Projects'
 import '../src/css/navbar.css'
-import { Projects } from 'grommet-icons'
+import { Tree } from 'grommet-icons'
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
