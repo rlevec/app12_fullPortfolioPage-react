@@ -100,7 +100,7 @@ export const projects= [
     category: 'beginner',
     technologies: 'JS, React, CSS, HTML',
     img: 'https://i.imgur.com/AHgwmfu.jpg',
-    desc: `Altering navigation bar height based on the heigh value of the container gathered via useRef hook and altered via useEffect based on the state value.`,
+    desc: `Altering navigation bar height based on the height value of the container gathered via useRef hook and altered via useEffect based on the state value.`,
     link: 'https://github.com/rlevec/app11_navBarDesignAlter-react',  
   },
   {

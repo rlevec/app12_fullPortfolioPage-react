@@ -14,6 +14,7 @@ export const Projects = () => {
         return
     } 
     const newItems = projects.filter((item) => item.category === category)
+    console.log(newItems)
     setProjectItems(newItems)
   }
   
@@ -39,7 +40,7 @@ export const Projects = () => {
             </div>
             <div className='project-card-container'>
                 {
-                    projects.map((project) => {
+                    projectItems.map((project) => {
                         const {id, title, technologies, desc, img, link} = project
                         return (
                             <div key={id} className='project-profile-card'>
