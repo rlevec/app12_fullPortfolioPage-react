@@ -3,6 +3,151 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFolderOpen, faUserCircle, faPeopleGroup, faContactCard, faMoneyBill} from '@fortawesome/free-solid-svg-icons'
 
 
+export const projects= [
+{
+    id: 1,
+    title: 'appointments',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/EHdnGwE.jpg',
+    desc: `Appointment list of a person using useState() and useEffect() hooks.`,
+  },
+  {
+    id: 2,
+    title: 'excursion',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/LedjrDc.jpg',
+    desc: `Excursion list of available tours using useState() and useEffect() hooks with added functionality and multiple component drilling. State alteration in the component.`,
+  },
+  {
+    id: 3,
+    title: 'product reviews',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/vh4vmaw.jpg',
+    desc: `List of product reviews using useState() and useEffect() hooks with added functionality of switching between users and multiple component drilling.`,
+  },
+  {
+    id: 4,
+    title: 'shipping accordion',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/HdjGEb0.jpg',
+    desc: `Accordion web design for questions and answers about shipping of product using useState() and useEffect() hooks. State alteration in the component.`,
+  },
+  {
+    id: 5,
+    title: 'urban menu',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/rRqLWAb.jpg',
+    desc: `Menu list using useState() and useEffect() hooks with added functionality of conditional rendering.`,
+  },
+  {
+    id: 6,
+    title: 'work experience',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/XXZyAnj.jpg',
+    desc: 'Interactive index based GUI alteration with useState() and useEffect() hooks based on work experience info example via company filtering.'
+  },
+  {
+    id: 7,
+    title: 'reviews slider',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/AgS850B.jpg',
+    desc: `List of job description reviews with added functionality of index based css position and a times slider between the users.`,
+  },
+  {
+    id: 8,
+    title: 'color shades generator',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/Urrc1ns.jpg',
+    desc: `List of CSS HEX color shades using Stack Overflow's function implementation and importing color palete value objects from GitHub and turning it all into interactive color shade selection screen bas…`,
+  },
+  {
+    id: 9,
+    title: 'lorem ipsum paragraph generator',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/Urrc1ns.jpg',
+    desc: `List of lorem ipsum paragraphs generated via user input by altering the state of the component with external data.`,
+  },
+  {
+    id: 10,
+    title: 'daily workout ToDo',
+    category: 'intermediate',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/26qJlom.jpg',
+    desc: `Multiple input based list with interactive GUI via multiple state altering and functionalities such as edit/remove/clear with alert state on each change.`,
+  },
+  {
+    id: 11,
+    title: 'navBar alter design',
+    category: 'beginner',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/AHgwmfu.jpg',
+    desc: `Altering navigation bar height based on the heigh value of the container gathered via useRef hook and altered via useEffect based on the state value.`,
+  },
+  {
+    id: 12,
+    title: 'portfolio page',
+    category: 'intermediate',
+    technologies: 'JS, React, CSS, HTML',
+    img: 'https://i.imgur.com/CCidYIJ.jpg',
+    desc: `to be continued...`,
+  },
+]
+
+export const people1 = [
+    {
+    id: 1,
+    image:'https://i.imgur.com/snovgnr.jpg',
+    name: 'rene levec',
+    title: 'Front-end',
+    duty:
+      'Responsible for using my knowledge of programming languages to code user-side applications, including visual elements like menu bars, clickable buttons and the overall layout of websites or web applications.',
+  },
+  {
+    id: 2,
+    image:
+      'https://i.imgur.com/15Z1YVa.jpg',
+    name: 'sofia vergara',
+    title: 'Back-end',
+    duty:
+      'Responsible for server-side web application logic and integration of the work front-end developers do. I mostly write the web services and APIs used by front-end developers and mobile application developers.',
+  },
+  {
+    id: 3,
+    image:
+      'https://i.imgur.com/sbjVIvD.jpg',
+    name: 'ladislav johnson',
+    title: 'SQL',
+    duty:
+      'Responsible for developing SQL databases and writing applications to interface with SQL databases. Development often consists of designing tables, storing procedures, views and functions.',
+  },
+  {
+    id: 4,
+    image:
+      'https://i.imgur.com/4EACi0Y.jpgg',
+    name: 'gal gadot',
+    title: '.NET',
+    duty:
+      'Responsible for producing code using . net languages such as C# and VB. I create applications from scratch, configure existing systems and provide user support. Also, net developers are able to write functional code with a sharp eye for spotting defects. ',
+  },
+  {
+    id: 5,
+    image:
+      'https://i.imgur.com/trl6zVV.jpg',
+    name: 'scarlet johanson',
+    title: 'Python',
+    duty:
+      'Responsible for writing server-side web application logic. I develop back-end components, connect the application with third-party web services, and support the front-end developers by integrating their work with the Python application. ',
+  },
+]
 
 export const links = [
   {
@@ -147,4 +292,5 @@ export const cards = [
         'Bootstrap Library',
     ]
   },
+
 ];

@@ -2,13 +2,17 @@ import React, { useState, useRef, useEffect } from 'react'
 import { FaBars, FaTwitter } from 'react-icons/fa'
 import { links, social } from './data'
 import Profile from './Profile'
+import Team from './Team'
 import '../src/css/navbar.css'
+import { Projects } from 'grommet-icons'
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
   const linksContainerRef = useRef(null)
   const linksRef = useRef(null)
-  const [showProfile, setShowProfile] = useState(true)
+  const [showProfile, setShowProfile] = useState(false)
+  const [showTeam, setShowTeam] = useState(false)
+  const [showProjects, setShowProjects] = useState(true)
  
 
   useEffect(() => {
@@ -60,6 +64,8 @@ const Navbar = () => {
         </div>
     </nav>
     {showProfile && <Profile />}
+    {showTeam && <Team/>}
+    {showProjects && <Projects/>}
   </>
   )
 }
