@@ -1,6 +1,6 @@
 import { FaInstagram, FaFacebook, FaLinkedin, FaTwitter, FaHome, FaUserFriends, FaFolderOpen, FaCalendarAlt, FaFolder, FaChevronLeft, FaChevronRight, FaQuoteRight}from "react-icons/fa";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faFolderOpen, faUserCircle, faPeopleGroup, faContactCard, faMoneyBill} from '@fortawesome/free-solid-svg-icons'
+import {faFolderOpen, faUserCircle, faPeopleGroup, faContactCard, faMoneyBill, faGraduationCap} from '@fortawesome/free-solid-svg-icons'
 
 
 export const projects= [
@@ -179,8 +179,8 @@ export const links = [
   },
   {
     id: 4,
-    icon: <FontAwesomeIcon icon={faMoneyBill}/>,
-    text: "pricing",
+    icon: <FontAwesomeIcon icon={faGraduationCap}/>,
+    text: "education",
   },
   {
     id: 5,
