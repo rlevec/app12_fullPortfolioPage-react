@@ -1,19 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { FaBars, FaTwitter } from 'react-icons/fa'
 import { links, social } from './data'
-import Profile from './Profile'
-import Team from './Team'
-import { Projects } from './Projects'
 import '../src/css/navbar.css'
 import { Tree } from 'grommet-icons'
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
   const linksContainerRef = useRef(null)
   const linksRef = useRef(null)
-  const [showProfile, setShowProfile] = useState(false)
-  const [showTeam, setShowTeam] = useState(false)
-  const [showProjects, setShowProjects] = useState(true)
  
 
   useEffect(() => {
@@ -43,7 +38,7 @@ const Navbar = () => {
                             const {id, text, icon} = link
                             return (
                                <li key={id}>
-                                <button className='links-btn'>{icon}{text}</button>
+                                <Link to={`/${text}`}><button className='links-btn'>{icon}{text}</button></Link>
                                </li> 
                             )
                         })
@@ -64,9 +59,6 @@ const Navbar = () => {
             </ul>
         </div>
     </nav>
-    {showProfile && <Profile />}
-    {showTeam && <Team/>}
-    {showProjects && <Projects/>}
   </>
   )
 }

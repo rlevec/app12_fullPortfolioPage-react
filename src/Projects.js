@@ -4,7 +4,7 @@ import {projects} from './data'
 const allCategories = ['all', ...new Set(projects.map((project) => project.category))] 
 console.log(allCategories)
 
-export const Projects = () => {
+const Projects = () => {
   const [projectItems, setProjectItems] = useState(projects)
   const [categories, setCategories] = useState(allCategories)
   
@@ -62,3 +62,5 @@ export const Projects = () => {
     </>
   )
 }
+
+export default Projects
