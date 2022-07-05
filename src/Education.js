@@ -21,7 +21,7 @@ const Education = () => {
             university.map((uni, index) => {
               return (
                 <button key={uni.id} onClick={() => setValue(index)}
-                  className='university-btn-education'
+                  className={`university-btn-education ${index === value && 'active-btn'}`}
                 >
                   {uni.institution}
                 </button>

@@ -37,8 +37,18 @@
     outline-color: #002D62;
 }
 
+.university-btn-education:hover {
+    color: #FCF55F;
+    box-shadow: 0 2px #002D62;
+}
+
 .university-info-education h3 {
     font-weight: 400;
+}
+
+.active-btn {
+    color: #FCF55F;
+    box-shadow: 0 2px #002D62;
 }
 
 .university-info-education h4 {
