@@ -1,0 +1,71 @@
+.section-education {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+}
+
+.title-education {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.institution-center-education {
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.btn-container-education {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.university-btn-education {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    margin: 0 0.5rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    padding: 0.25rem 0;
+    line-height: 1;
+    outline-color: #002D62;
+}
+
+.university-info-education h3 {
+    font-weight: 400;
+}
+
+.university-info-education h4 {
+    text-transform: uppercase;
+    color: #FCF55F;
+    background: #002D62;
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.university-date-education {
+    letter-spacing: 0.1rem;
+}
+
+.university-desc-education {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+.university-desc-education p {
+    margin-bottom: 0;
+    color: #002D62;
+}
+
+.unviersity-icon-education {
+    color: #002D62;    
+}

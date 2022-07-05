@@ -161,6 +161,84 @@ export const people1 = [
   },
 ]
 
+export const education = [
+  {
+    "id": "je435diU4Cea7HL",
+    "name": "Ladislav Johnson",
+    "order": 5,
+    "title": "Bachelor of Software Engineering",
+    "dates": "December 2013 - November 2018",
+    "studies": [
+    "Software development, modeling, simulation, testing, and quality assurance.",
+    "Perform maintenance and software integrations for existing systems.",
+    "Application development for the full lifecycle of software. ",
+    "Developing and executing project plans.",
+    "Creating technical specifications.",
+  ],
+    "institution": "VSITE"
+  },
+  {
+    "id": "rfcAGJfij4Ce3V0HL",
+    "name": "Rene Levec",
+    "order": 4,
+    "title": "Bachelor of Information Systems",
+    "dates": "July 2015 - Semptember 2021.",
+    "studies": [
+    "Manages hardware and software installations and upgrades.",
+    "Maintains information systems by planning, monitoring, and coordinating employees.",
+    "Develops private intranet and public internet sites.",
+    "Creates reports, programs, BAMs, and BPMs as well as add-on applications to perform small features on ERP-system.",
+    "Safeguards assets by planning and implementing disaster recovery and back-up procedures and information security and control structures.",
+  ],
+    "institution": "FOI"
+  },
+  {
+    "id": "recAGJfiU4CeaV0HL",
+    "name": "Sofia Vergara",
+    "order": 3,
+    "title": "Bachelor of Systems & Network Administration",
+    "dates": "May 2013 - August 2016.",
+    "studies": [
+    "Installs, configures, tests and maintains servers, SAN, and related networking equipment.",
+    "Monitors scheduled jobs and computer output for completeness, accuracy, and errors.",
+    "Performs all critical data backups and secures data according to established procedures.",
+    "Installs firmware and security updates on servers, printers, and related networking equipment.",
+    " Troubleshoots and resolves issues with ATM and related equipment, Home Branch (Internet Banking) and Mobile services.",
+  ],
+    "institution": "ALGEBRA"
+  },
+  {
+    "id": "recIL6mJNfWObonls",
+    "name": "Gal Gadot",
+    "order": 2,
+    "title": "Bachelor of Cybersecurity",
+    "dates": "October 2018 -  October 2021",
+    "studies": [
+    "Set and implement user access controls and identity and access management systems.",
+    "Monitor network and application performance to identify and irregular activity.",
+    "Perform regular audits to ensure security practices are compliant.",
+    "Deploy endpoint detection and prevention tools to thwart malicious hacks.",
+    "Implement comprehensive vulnerability management systems across all assets on-premises and in the cloud.",
+  ],
+    "institution": "PMF"
+  },
+  {
+    "id": "rec61x18GVY99hQq5",
+    "name": "Scarlet Johanson",
+    "order": 1,
+    "title": "Bachelor of Computer Science",
+    "dates": "May 2016  - September 2020",
+    "studies": [
+    "Develop and/or simplify algorithms.",
+    "Create new computing languages.",
+    "Determine new methods for working with computers.",
+    "Develop models and theories to address issues in the field.",
+    "Increase the efficiency of computer software and/or hardware.",
+  ],
+    "institution": "FER"
+  },
+]
+
 export const links = [
   {
     id: 1,
