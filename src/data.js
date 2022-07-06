@@ -326,7 +326,7 @@ export const links = [
   {
     id: 5,
     icon: <FontAwesomeIcon icon={faContactCard}/>,
-    text: "contact",
+    text: "about",
   },
 
 ];

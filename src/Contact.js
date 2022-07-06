@@ -9,7 +9,8 @@ const Contact = () => {
     <div className='contact-main'>
        <div className='contact-container'>
             <h3>questions and answers about processes, procedures and standards</h3>
-            <div className='contact-section info'>
+            <div className='contact-underline'></div>
+            <div className='contact-section'>
                 {
                     questions.map((question) => {
                         return (

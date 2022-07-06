@@ -1,5 +1,4 @@
 .contact-main {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,34 +12,49 @@
     padding: 2.5rem 2rem;
     max-width: 1170px;
     display: grid;
-    grid-template-columns: repeat(2, 220px);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem 2rem;
+}
+
+.contact-underline {
+    width: 70rem;
+    height: 0.25rem;
+    background: #002D62;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: -90px;
 }
 
 .contact-container h3 {
     line-height: 1.2;
     font-weight: 500;
-    width: 250px;
-    height: 200px;
+    width: 1fr;
+    height: 43px;
     text-align: center;
-    border: 2px solid grey;
-    border-radius: 0.25rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-
+    color: #FCF55F;
+    -webkit-text-stroke: 0.1rem #002D62;
+    font-size: 2.1rem;
+    margin-bottom: 5rem;
+    margin-top: -6.5rem;
+    paint-order: stroke fill;
 }
 
 .contact-section {
     width: 90vw;
     margin: 0 auto;
     max-width: 1170px;
+    margin-top: -4rem;
 }
 
 .contact-question {
     padding: 1rem 1.5rem;
+    margin-top: 2rem;
     border: 2px solid grey;
     margin-bottom: 1rem;
     border-radius: 0.25rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 10px #002D62;
+    outline: double 5px #FCF55F;
 }
 
 .contact-question h4 {
@@ -49,9 +63,11 @@
 }
 
 .contact-question p {
-    color: grey;
+    color: #002D62;
     margin-bottom: 0;
     margin-top: 0.5rem;
+    font-style: italic;
+    text-align: justify;
 }
 
 .contact-question header {
@@ -62,6 +78,9 @@
 
 .contact-question h4 {
     margin-bottom: 0;
+    background: -webkit-linear-gradient(90deg, #002D62, #FCF553);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact-btn {
@@ -69,12 +88,12 @@
     border-color: transparent;
     width: 2rem;
     height: 2rem;
-    background: blue;
+    background: #002D62;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: yellow;
+    color: #FCF55F;
     cursor: pointer;
     margin-left: 1rem;
     align-self: center;

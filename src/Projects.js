@@ -23,6 +23,7 @@ const Projects = () => {
         <div>
             <div>
                 <h2 className='project-header'>our projects</h2>
+                <div className='underline'></div>
             </div>
             <div className='project-btn-container'>
                 {
