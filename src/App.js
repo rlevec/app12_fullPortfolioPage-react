@@ -8,6 +8,7 @@ import Projects from './Projects'
 import Profile from './Profile'
 import Team from './Team'
 import Education from "./Education";
+import Contact from "./Contact";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path="/team" element={<Team />}/>
           <Route exact path="/projects" element={<Projects />}/>
           <Route exact path="/education" element={<Education />}/>
+          <Route exact path="/contact" element={<Contact />}/>
       </Routes>
       </div>
     </Router>

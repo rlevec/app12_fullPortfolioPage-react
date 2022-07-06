@@ -40,12 +40,13 @@ const Education = () => {
             return (
               <div key={index} className='university-desc-education'>
                 <FaAngleDoubleRight className='unviersity-icon-education'/>
-                <p>{study}</p>
+                <p className='university-studies'>{study}</p>
               </div>
             )
           })
         }
       </div>
+      <footer className='education-footer'></footer>
     </div>
   )
 }

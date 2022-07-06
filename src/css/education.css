@@ -2,11 +2,14 @@
     width: 90vw;
     margin: 5rem auto;
     max-width: 1170px;
+    margin-top: 1rem;
 }
 
 .title-education {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     text-align: center;
+    color: #FCF55F;
+    -webkit-text-stroke: 0.1rem #002D62;
 }
 
 .institution-center-education {
@@ -42,8 +45,28 @@
     box-shadow: 0 2px #002D62;
 }
 
+.education-footer {
+    height: 100px;
+    width: auto;
+    margin-bottom: -80px;
+}
+
 .university-info-education h3 {
     font-weight: 400;
+    color: #002D62;
+    margin-top: 5px;
+    font-style: italic;
+
+}
+
+.university-info-education h2 {
+    max-width: 35rem;
+    margin-top: 2rem;
+    margin-bottom: -0.9rem;
+    line-height: 2;
+    color: #FCF55F;
+    -webkit-text-stroke: 0.125rem #002D62;
+    paint-order: stroke fill;
 }
 
 .active-btn {
@@ -62,6 +85,8 @@
 
 .university-date-education {
     letter-spacing: 0.1rem;
+    font-weight: 700;
+    color: #002D62;
 }
 
 .university-desc-education {
@@ -77,5 +102,13 @@
 }
 
 .unviersity-icon-education {
-    color: #002D62;    
+    color: #8B8000;
+    margin-left: 10px;  
+    margin-right: -15px;
+}
+
+.university-studies {
+    color: #002D62;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
 }

@@ -2,6 +2,69 @@ import { FaInstagram, FaFacebook, FaLinkedin, FaTwitter, FaHome, FaUserFriends, 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFolderOpen, faUserCircle, faPeopleGroup, faContactCard, faMoneyBill, faGraduationCap} from '@fortawesome/free-solid-svg-icons'
 
+export const allQuestions = [
+{
+    id: 1,
+    title: 'Who are My Primary Competitors in the Industry?',
+    info:
+      "Not only do you need to understand your competitors so that you can understand the market, you also have to track these other businesses and their activities.\n\nThink about this example: Google has close to 80 percent of the global search engine market share, so Bing constantly has to improve upon its innovation and use new marketing tools to bring people to its search engine.\n\nIn addition to your primary or direct competitors, it’s important to stay aware of your indirect competitors. These are the competitors who might not offer the exact product or service that you do but may still eat into your market share.\n\nAn example could be a local restaurant and a movie theater. Each business might not consider the other as a direct competitor, but the moves each respective business makes do impact the other. For instance, if the movie theater decides to start selling food in the theater, patrons may skip the restaurant and eat at the movies. Likewise, if the restaurant decides to have live music on a Friday night, it could deter business from the movie theater.\n\nBy conducting a competitive analysis with direct and indirect competitors, you can put your company in the best position possible to succeed.",
+  },
+  {
+    id: 2,
+    title: 'How Is the Market Responding to This Industry?',
+    info:
+      "The early 2010s saw a rise in novelty cupcake bakeries around the country. From giant cupcakes to bacon cupcakes, stores selling adorable desserts were taking the economy by storm. In 2013, NPR profiled Crumbs Bake Shop, which went public with a $13 stock price and then dropped to $1.29 per share as the 'cupcake bubble' burst. By 2014, macarons were the new hot dessert trend, which has since been replaced by eclairs in 2017.\n\nTracking market research and understanding the flow of the economy can help entrepreneurs better estimate their likelihood of success. While demand might be high for eclairs now, they could follow the path of the cupcake or the macaron within a few years.",
+  },
+  {
+    id: 3,
+    title: 'How Is My Solution Different From My Competitors?',
+    info:
+      "Just because your business market is growing doesn't mean you're guaranteed a home run. For example, American demand for craft beer has caused the industry to grow 16.6 percent from 2015 to 2016. In 2011, fewer than 2,000 craft breweries operated in the United States, and after five years, more than 5,000 existed.\n\nThe craft beer market is certainly growing, but local breweries still struggle to stand out. This struggle leads them to brew dramatic beer flavors, sell food along with beer, and incorporate live entertainment at their breweries. Your business should follow the same process. Even if demand exists, how will your offering differ from those offerings of your competitors? What will make customers choose you over everyone else?\n\nAs markets become saturated, the important variables are product differentiation, customer service, and brand equity. This reasoning is why many of us make decisions about where we eat or drink based on the atmosphere, customer service, or personal ties, rather than the quality of the food or beverage.",
+  },
+  {
+    id: 4,
+    title: 'Who Is My Ideal Customer?',
+    info:
+      "You should answer some basic demographic questions about your customers: What is their age or gender? What is their income level? Why do they need your product with their lifestyle?\n\nKnowing your customers means going deeper than their basic information and understanding their motivations, pain points, and personalities. These audience personas can help you develop products to meet their needs and market to them in the best ways possible.",
+  },
+  {
+    id: 5,
+    title: 'How Will I Market My Business?',
+    info:
+      "Knowing your target audience will also help you know how to market your business. For example, younger audiences may be attracted to social media channels, such as Snapchat or Instagram, while B2B audiences may respond better to webinars and white papers. Do you want to focus on SEO and content marketing or do you want to spend time gaining reviews and word-of-mouth referrals?\n\nBefore you start a business, it’s important to understand where and how you are going to market that company. The best brands in the world have figured out how to communicate their value proposition effectively. Take time before you launch to develop a marketing strategy that emphasizes your unique selling proposition to the right people. Ineffective marketing can be the death of new businesses.",
+  },
+  {
+    id: 6,
+    title: 'Will My Business Have a Soft or Hard Launch?',
+    info:
+      "This question will determine how much flexibility you have for setbacks. For example, if you're scheduling a hard launch for an event, such as an ice cream store trying to catch increased summer business, then you can't afford to fall behind on your opening schedule. However, if you're working while launching your business or if you're flexible with the opening date, then you can take more time to perfect your business plan before accepting customers.",
+  },
+  {
+    id: 7,
+    title: 'How Will I Fund My Business?',
+    info:
+      "You'll discover multiple options to choose from when deciding how to fund your business. Self-funding means you build your business out of your pocket, while investor-funded businesses offer all the money you need upfront. It's not uncommon for many entrepreneurs to use a mixture of their own money and money from investors or banks.\n\nWhile you might be able to expand quickly with a loan, you have to pay interest on that loan. However, you limit how quickly you can expand if everything you invest income from your bank account. Both sides have pros and cons and depend on the overall business model.\n\nAnother consideration to make when deciding on funding is the ramifications it will have when your startup files its taxes. Forty percent of business owners list bookkeeping and tax preparation as the worst part of being a small business owner, so as you start to think about funding, you should also start thinking about taxes and other financial responsibilities that come with running a business.",
+  },
+  {
+    id: 8,
+    title: 'When and How Do I Turn a Profit?',
+    info:
+      "Answering when you will turn a profit may depend on the funding option. Some investors won't expect you to start paying them for a few years, which gives you the flexibility to grow your business. However, this expectation also comes with required interest payments. Conversely, if you're self-funded, you'll want to quickly turn a profit so that you can pay your bills and avoid debt. Knowing your profit goals can help you budget effectively and maximize your profit.\n\nAnswering how to turn a profit is another beast altogether. New businesses can increase their profit in a number of different ways. For instance, businesses that accept payment via credit or debit cards may be leaving a lot of money on the table. Businesses that accept customer payments using ACH, on average, pay between 1/5 to 1/20 of the costs of credit and debit card transactions.\n\nFinding creative ways to stretch the dollar will help you turn a larger profit, faster. ",
+  },
+  {
+    id: 9,
+    title: 'How Will I Define Success After the First Year?',
+    info:
+      "Running your business isn't about money only. Where do you see yourself in a year? Will you be ready to open a second location? Will you have five employees and a dozen clients? Along with profit goals, create personal goals to grow your business in the next six to 12 months.\n\nWoodworkers believe you should 'measure twice and cut once,' and that attitude can also be applied to the world of entrepreneurship. By doing research and carefully crafting your business plan before you dive into your new business, you can reduce the chances that you overlook a key detail that sets your business behind or puts the business at risk for growth..",
+  },
+  {
+    id: 10,
+    title: 'How Can I Contact You if I have Additional Questions?',
+    info:
+      "Feel free to contacts us on the following e-mail address: rene.levec@outlook.com",
+  },
+]
+
 
 export const projects= [
 {
