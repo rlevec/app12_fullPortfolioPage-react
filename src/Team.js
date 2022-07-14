@@ -45,7 +45,7 @@ const Team = () => {
                 <img src={image} alt={name} className='teamPerson-img'/>
                 <h4>{name}</h4>
                 <p className='team-title'>{title}</p>
-                <h5 className='team-text fix-stroke'>{duty}</h5>
+                <h5 className='team-text'>{duty}</h5>
                 <FaQuoteRight className='icon'/>
               </article>
             )
